@@ -1,4 +1,4 @@
-manifest = "f0820fb04964adbfce5f4840d01a1707ca7f9112e9a84d518ca65dc7435eea02"
+manifest = "6cb523b33115b538c5c28c1aa585675e2c7420c5b99c38ec96ed1b797984b64b"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-config"
@@ -7,6 +7,10 @@ target = "//:config"
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-core"
 target = "//:core"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-predef"
+target = "//:predef"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-static_assert"
@@ -31,6 +35,10 @@ revision = "84411b155dae6f08ea749bdeb1e71aecd0718d52"
 [lock."github.com/buckaroo-pm/boost-detail"]
 versions = [ "branch=master" ]
 revision = "e8b834a93f7ba935aa63a3d6690804f3bd2b0963"
+
+[lock."github.com/buckaroo-pm/boost-predef"]
+versions = [ "branch=master" ]
+revision = "c52d78d2ae7cc323da79c23375b7efe8c2c8078d"
 
 [lock."github.com/buckaroo-pm/boost-static_assert"]
 versions = [ "branch=master" ]

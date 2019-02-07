@@ -1,6 +1,10 @@
 targets = [ "//:system" ]
 
 [[dependency]]
+package = "github.com/buckaroo-pm/boost-predef"
+version = "branch=master"
+
+[[dependency]]
 package = "github.com/buckaroo-pm/boost-core"
 version = "branch=master"
 
