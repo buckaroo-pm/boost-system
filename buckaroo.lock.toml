@@ -1,0 +1,57 @@
+manifest = "392cc5b405bfd7672845b7519b03deeb7d735243f44c006f093ec5823fadce64"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-assert"
+target = "//:assert"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+target = "//:config"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-core"
+target = "//:core"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-integer"
+target = "//:integer"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-iterator"
+target = "//:iterator"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-predef"
+target = "//:predef"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-static_assert"
+target = "//:static_assert"
+
+[lock."github.com/buckaroo-pm/boost-assert"]
+versions = [ "1.70.0" ]
+revision = "279fd2bcb869de42e5697cbdcc10db0eaa3b0bd7"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.70.0" ]
+revision = "621639c62278b2dbac92480da0536c5d048f58e2"
+
+[lock."github.com/buckaroo-pm/boost-core"]
+versions = [ "1.70.0" ]
+revision = "f237a911a8f4797f2369669884788094885df0e9"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.70.0" ]
+revision = "bce7a4f4202265989ed608ed56591a8d464ce8f8"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.70.0" ]
+revision = "20051fb6857b89c47c8eee8d108e60dfd295e68e"
+
+[lock."github.com/buckaroo-pm/boost-predef"]
+versions = [ "1.70.0" ]
+revision = "29f524b7c11b967583b794eab6dc5af570550ce3"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.70.0" ]
+revision = "4c70844d1408041c340a3f0d740bd2961e443041"
