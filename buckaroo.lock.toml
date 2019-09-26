@@ -1,0 +1,69 @@
+manifest = "c489a5c309b474df83249fd3553809677b46038cb7e0b5576c9d700951e90fb4"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+target = "//:config"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-integer"
+target = "//:integer"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-iterator"
+target = "//:iterator"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-predef"
+target = "//:predef"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-static_assert"
+target = "//:static_assert"
+
+[lock."github.com/buckaroo-pm/boost-assert"]
+versions = [ "1.66.0" ]
+revision = "8dc91ee53734be8ff8ce63685788490d0ad30b6d"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.66.0" ]
+revision = "bbc1bc3ec06d91bea9ee8e8e9b900de37998e063"
+
+[lock."github.com/buckaroo-pm/boost-core"]
+versions = [ "1.66.0" ]
+revision = "a7be6c827538ef90c7dba6e10cf00dc14584b75d"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.66.0" ]
+revision = "06136d7b02f567829df8d287d7bc95158a346f21"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.66.0" ]
+revision = "9425eb4e908dfb6ecb96db9beaee44a71574ff43"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.66.0" ]
+revision = "20421626f5743491dfe7a453d97ab35a6fd94804"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.66.0" ]
+revision = "1bd3bd190ba17ec57ad385d58af53f0d91332195"
+
+[lock."github.com/buckaroo-pm/boost-predef"]
+versions = [ "1.66.0" ]
+revision = "3b15daeed8e3656d568c96966089c9c5d28426da"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.66.0" ]
+revision = "f40e33d9d3096ea6cf213b206be9f8c5ff0fe1ac"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.66.0" ]
+revision = "e1dc6ac4af7aeeb5ddb3c9d979531137e0f30816"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.66.0" ]
+revision = "5cd1a1d9158e4ce809ec637947e2d8ad4ca115b9"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.66.0" ]
+revision = "13a62020ec56b6e2d11c9ff79a69d38f4d38fd74"
