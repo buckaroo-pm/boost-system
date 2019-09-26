@@ -1,0 +1,21 @@
+targets = ["//:system"]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-predef"
+version = "1.65.1"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+version = "1.65.1"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-static_assert"
+version = "1.65.1"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-iterator"
+version = "1.65.1"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-integer"
+version = "1.65.1"
